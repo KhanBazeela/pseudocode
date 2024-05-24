@@ -1,0 +1,9 @@
+Procedure SwapNumbers
+  input num1
+  input num2
+
+  temp = num1
+  num1 = num2
+  num2 = temp
+  return num1, num2
+End Procedure
