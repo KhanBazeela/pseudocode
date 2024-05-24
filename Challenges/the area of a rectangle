@@ -1,0 +1,8 @@
+Procedure AreaOfRectangle
+// Your code here
+Start
+Input length of the rectangle (length)
+Input width of the rectangle (width)
+Calculate area as length times width (area = length * width)
+Output the area
+End Procedure
