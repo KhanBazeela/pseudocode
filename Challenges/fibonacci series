@@ -1,0 +1,16 @@
+Procedure FibonacciSeries
+  Input: <limit>
+    Initialize variables: a = 0, b = 1
+    Print a
+    Print b
+    
+    While b <= limit
+        next_fibonacci = a + b
+        If next_fibonacci > limit
+            Exit Loop
+        End If
+        Print next_fibonacci
+        a = b
+        b = next_fibonacci
+    End While
+End Procedure
