@@ -1,0 +1,14 @@
+Procedure MaximumOfThreeNumbers
+  //Declare variables for storing values for the three numbers
+  num1 = <input value for num1>
+  num2 = <input value for num2>
+  num3 = <input value for num3>
+  
+  if num1 > num2 and num1 > num3 then
+    largest = num1
+  else if num2 > num1 and num2 > num3 then
+      largest = num2
+  else
+      largest = num3
+  print largest
+End Procedure
