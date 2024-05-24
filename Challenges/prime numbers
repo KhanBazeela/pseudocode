@@ -1,0 +1,12 @@
+Procedure CheckPrime
+  INPUT n
+  i = 2
+  WHILE i <= square root of n
+      IF n MOD i == 0
+          OUTPUT "not prime"
+          BREAK
+      i = i + 1
+  END WHILE
+  OUTPUT "prime"
+
+End Procdedure
