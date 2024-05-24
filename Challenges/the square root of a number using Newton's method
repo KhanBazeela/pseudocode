@@ -1,0 +1,14 @@
+Procedure SquareRoot
+Input: num (a positive number)
+// Your code here
+Start
+Input the number (num) for which you want to find the square root
+Input a guess (guess) for the square root
+Set a tolerance (tol) for how close the guess needs to be
+Initialize a variable previous_guess to 0
+Repeat until the absolute difference between guess and previous_guess is less than tol:
+Set previous_guess to the value of guess
+Update guess using the formula:
+guess = 0.5 * (guess + num / guess)
+Output guess as the square root of num
+End Procedure
