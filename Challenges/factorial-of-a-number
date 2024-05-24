@@ -1,0 +1,13 @@
+Procedure Factorial
+  Input num1
+  //initialize factorial to 1
+  factorial = 1
+
+  if num1 == 0
+    return 1
+  else
+    for i from 1 to num1
+      factorial = factorial * i
+    end for
+    print factorial
+End Procedure
